@@ -10,8 +10,8 @@ run
  Rode a API em localhost:3001 http://localhost:3001/api-docs com funcoes no swagger.
 
  Criar User
-   - para criar user local preencha o campo authentication como "local" ou "github"  
-   - em CODE preencha com o authorization code extraido do oauthdebugger
+   - para criar user preencha o campo authentication como "local" ou "github"  
+   - em CODE preencha com o authorization code extraido do oauthdebugger caso o campo o authentication === "github"
 
  Login
    - entre com o login e password cridos em create user para gerar JWT de acesso
